@@ -1,6 +1,6 @@
 async function getdata()
 {
-    const apidata = await fetch("http://makeup-api.herokuapp.com/api/v1/products.json",{
+    const apidata = await fetch("https://makeup-api.herokuapp.com/api/v1/products.json",{
         method:"GET"
     });
     const data = await apidata.json();
